@@ -11,6 +11,9 @@ function test2() {
 
 function ericdev_function1() {
 	echo "ericdev1";
+
+function testdev_function1() {
+	echo "Testing testdev";
 }
 
 test1();
@@ -22,5 +25,9 @@ test2();
 echo "<br />";
 
 ericdev_function1();
+
+echo "<br />";
+
+testdev_function1();
 
 ?>
